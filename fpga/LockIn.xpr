@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2016.3 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="17" Path="E:/Documents/Dropbox/PDRA-NVMag/FPGA/LockIn/LockIn.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="e00920ae450c4cb3b380c034a776785c"/>
+    <Option Name="Part" Val="xc7z010clg400-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/custom_ip/AXI_inout_1.0"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/custom_ip/AXI_inout_1.0"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/cores"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/custom_ip"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PPRDIR/LockIn.ip_user_files"/>
+    <Option Name="IPStaticSourceDir" Val="$PPRDIR/LockIn.ip_user_files/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSANumComputeUnits" Val="16"/>
+    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="64"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PPRDIR/custom/IO_control.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/custom/averaging.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/custom/mode_control.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/custom/data_transfer.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/system/system.bd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../base-system/base_system.srcs/sources_1/bd/system/system.bd"/>
+          <Attr Name="ImportTime" Val="1478801444"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_cordic_1_1/system_cordic_1_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_cordic_0_0/system_cordic_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_default_val_0_3/system_default_val_0_3.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_simple_summation_0_4/system_simple_summation_0_4.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_moving_average_0_4/system_moving_average_0_4.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_0_7/system_mult_gen_0_7.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_1_5/system_mult_gen_1_5.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_dds_compiler_0_1/system_dds_compiler_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_AXI_inout_0_0/system_AXI_inout_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_split_AXI_0_2/system_split_AXI_0_2.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ds_buf_2_0/system_util_ds_buf_2_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_clk_switch_0_0/system_clk_switch_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_0_0/system_mult_gen_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_two_clk_accum_1_0/system_two_clk_accum_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_two_clk_accum_0_0/system_two_clk_accum_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_c_addsub_0_1/system_c_addsub_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_1_2_1/system_mult_gen_1_2.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_0_5/system_mult_gen_0_5.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_simple_summation_0_0/system_simple_summation_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_moving_average_0_1/system_moving_average_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_1_0/system_mult_gen_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_ttl_insert_0_0/system_ttl_insert_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_1_6/system_mult_gen_1_6.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_1_1/system_mult_gen_1_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_default_val_1_0/system_default_val_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_accumulator_limited_0_0/system_accumulator_limited_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_default_val_0_4/system_default_val_0_4.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_default_val_0_6/system_default_val_0_6.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_default_val_0_7/system_default_val_0_7.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_0_1/system_mult_gen_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_split_AXI_0_1/system_split_AXI_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_default_val_0_5/system_default_val_0_5.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_padder_0_1/system_data_padder_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_padder_0_0/system_data_padder_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_split_AXI_0_3/system_split_AXI_0_3.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_default_val_0_8/system_default_val_0_8.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_c_addsub_0_2/system_c_addsub_0_2.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_freq_doubler_0_0/system_freq_doubler_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_mem_intercon_0/system_axi_mem_intercon_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_writer_0_8/system_data_writer_0_8.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_writer_0_7/system_data_writer_0_7.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_writer_0_6/system_data_writer_0_6.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_two_clk_accum_0_1/system_two_clk_accum_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mem_manager_0_0/system_mem_manager_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_xbar_0/system_xbar_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_writer_0_5/system_data_writer_0_5.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_writer_0_4/system_data_writer_0_4.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_writer_0_3/system_data_writer_0_3.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_writer_0_2/system_data_writer_0_2.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_writer_0_0/system_data_writer_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_phase_inc_0/system_phase_inc_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_padder_6_0/system_data_padder_6_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_padder_5_0/system_data_padder_5_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_padder_4_0/system_data_padder_4_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_padder_3_0/system_data_padder_3_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_padder_2_0/system_data_padder_2_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_data_padder_1_0/system_data_padder_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_cordic_1_0/system_cordic_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_comb_AXI_0_0/system_comb_AXI_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_out_val_0_1/system_out_val_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_default_val_0_2/system_default_val_0_2.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_cordic_0_1/system_cordic_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ds_buf_0_0/system_util_ds_buf_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ds_buf_0_2/system_util_ds_buf_0_2.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_0_6/system_mult_gen_0_6.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_out_val_0_2/system_out_val_0_2.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_comb_AXI_0_1/system_comb_AXI_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_simple_summation_0_2_1/system_simple_summation_0_2.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_moving_average_0_2_1/system_moving_average_0_2.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_1_4/system_mult_gen_1_4.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="hdl/system.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_out_val_0_3/system_out_val_0_3.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_simp_counter_0_0/system_simp_counter_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_highest_bit_0_0/system_highest_bit_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_ps_0_axi_periph_0/system_ps_0_axi_periph_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_1_3/system_mult_gen_1_3.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_adc_2comp_0_0/system_adc_2comp_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_dac_switch_0_0/system_dac_switch_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_ps_0_0/system_ps_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_default_val_0_1/system_default_val_0_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_default_val_0_0/system_default_val_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_moving_average_0_3/system_moving_average_0_3.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_0_3/system_mult_gen_0_3.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_simple_summation_0_3/system_simple_summation_0_3.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_digital_IO_connect_0_0/system_digital_IO_connect_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_out_val_0_0/system_out_val_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_split_AXI_0_0/system_split_AXI_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_dds_compiler_0_0_1/system_dds_compiler_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_c_addsub_0_0/system_c_addsub_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_0_4/system_mult_gen_0_4.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mult_gen_0_2_1/system_mult_gen_0_2.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_mode_control_0_0/system_mode_control_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_clk_wiz_0_0/system_clk_wiz_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_rst_clk_wiz_0_125M_0/system_rst_clk_wiz_0_125M_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_digital_IO_connect_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_moving_average_0_2.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_out_val_0_2.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_default_val_0_1.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_dac_switch_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_adc_2comp_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_split_AXI_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_dac_switch_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_dac_switch_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_split_AXI_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_out_val_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_split_AXI_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_simple_summation_0_3.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_digital_IO_connect_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_digital_IO_connect_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_out_val_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_adc_2comp_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_out_val_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_adc_2comp_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_moving_average_0_3.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_padder_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_default_val_0_3.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_padder_4_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_padder_3_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_padder_1_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_default_val_0_6.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_default_val_0_5.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_padder_5_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_accumulator_limited_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_default_val_0_4.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_simple_summation_0_4.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_accumulator_limited_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_split_AXI_0_1.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_accumulator_limited_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_moving_average_0_4.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_default_val_0_7.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_default_val_1_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_default_val_1_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_default_val_1_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_ttl_insert_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_ttl_insert_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_ttl_insert_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_default_val_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_freq_doubler_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_freq_doubler_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_default_val_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_default_val_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_split_AXI_0_2.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_padder_0_1.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_writer_0_3.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_writer_0_2.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_writer_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_padder_6_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_split_AXI_0_3.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_writer_0_7.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_default_val_0_8.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_phase_inc_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_data_padder_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_data_padder_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_padder_2_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_mode_control_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_writer_0_4.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_data_writer_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_data_writer_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_out_val_0_1.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_writer_0_5.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_writer_0_6.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_simple_summation_0_2.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_comb_AXI_0_1.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_data_writer_0_8.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_simp_counter_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_simp_counter_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_comb_AXI_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_comb_AXI_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_comb_AXI_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_default_val_0_2.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_simple_summation_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_clk_switch_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_auto_pc_0_4/system_auto_pc_0.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_mem_manager_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_mem_manager_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_highest_bit_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_simp_counter_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_two_clk_accum_0_1.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_out_val_0_3.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_mem_manager_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_highest_bit_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_highest_bit_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_two_clk_accum_1_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_two_clk_accum_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_moving_average_0_1.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_clk_switch_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_clk_switch_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_mode_control_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_mode_control_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_freq_doubler_0_0.xml"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="system_ooc.xdc"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_default_val_0_7.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_default_val_0_7.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_simple_summation_0_2.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_simple_summation_0_2.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_phase_inc_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_phase_inc_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_data_writer_0_8.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_data_writer_0_4.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_data_writer_0_4.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_data_writer_0_8.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_data_writer_0_6.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_data_writer_0_2.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_data_writer_0_2.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_data_writer_0_6.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_simple_summation_0_4.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_simple_summation_0_4.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_two_clk_accum_0_1.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_default_val_0_8.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_default_val_0_8.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_two_clk_accum_0_1.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_two_clk_accum_1_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_two_clk_accum_1_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_two_clk_accum_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_two_clk_accum_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_simple_summation_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_simple_summation_0_0.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_default_val_0_3.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_default_val_0_3.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_data_writer_0_3.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_data_writer_0_3.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_data_writer_0_5.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_simple_summation_0_3.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_data_writer_0_5.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_simple_summation_0_3.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_default_val_0_1.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_default_val_0_1.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_default_val_0_4.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_default_val_0_4.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_data_writer_0_7.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_data_writer_0_7.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_default_val_0_5.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_default_val_0_5.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_auto_pc_1_1/system_auto_pc_1.xci"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_default_val_0_2.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_default_val_0_2.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="sim/system_default_val_0_6.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="synth/system_default_val_0_6.v"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="hw_handoff/system.hwh"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="hdl/system.hwdef"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="hw_handoff/system_bd.tcl"/>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/system/hdl/system_wrapper.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../base-system/base_system.srcs/sources_1/bd/system/hdl/system_wrapper.v"/>
+          <Attr Name="ImportTime" Val="1478802979"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="system_wrapper"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Define Name="TOOL_VIVADO"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/cfg/ports.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../base-system/cfg/ports.xdc"/>
+          <Attr Name="ImportTime" Val="1478802378"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/cfg/clocks.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../base-system/cfg/clocks.xdc"/>
+          <Attr Name="ImportTime" Val="1475679275"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="system_wrapper"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Higher performance designs, resource sharing is turned off, the global fanout guide is set to a lower number, FSM extraction forced to one-hot, LUT combining is disabled, equivalent registers are preserved, SRL are inferred  with a larger threshold" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Flow_PerfOptimized_high" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design">
+          <Option Id="RepFanoutThreshold">400</Option>
+          <Option Id="NoCombineLuts">1</Option>
+          <Option Id="KeepEquivalentRegisters">1</Option>
+          <Option Id="FsmExtraction">1</Option>
+          <Option Id="ResourceSharing">2</Option>
+          <Option Id="ShregMinSize">5</Option>
+        </Step>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="To compensate for optimistic delay estimation, add extra delay cost to long distance and high fanout connections. (high setting, most pessimistic)" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Performance_NetDelay_high" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design">
+          <Option Id="Directive">2</Option>
+        </Step>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design" EnableStepBool="1">
+          <Option Id="Directive">2</Option>
+        </Step>
+        <Step Id="route_design">
+          <Option Id="Directive">0</Option>
+        </Step>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+  </Runs>
+</Project>
