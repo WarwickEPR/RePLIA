@@ -5,6 +5,7 @@ software. The easiest way around this is for us to upload a disk image of our in
 files of this size (~4 GB), and so I have uploaded to Google Drive here:
 https://drive.google.com/file/d/1AOVsBOMCaBl7kWWVk9TnJfYykbBjvgp8/view?usp=sharing
 
+Google will undoubtedly warn you about viruses and file size, and there will be no preview, but it's all clean.
 With this install, the default user and password are 'root' and 'nvmag'. Please change them after installing.
 -------------------------------------
 This software is provided under the terms of the GNU v3 (2007).
