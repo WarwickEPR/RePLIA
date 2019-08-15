@@ -19,3 +19,6 @@ The LIAControl folder contains all the necessary files for that application. Thi
 Double-click the LIAControl.jar file to begin after installation of the RePLIA on the STEMlab.
 
 Full Instructions can be found in the user manual.
+
+Please direct enquires to g.stimpson.1@warwick.ac.uk and/or
+gavin.morley@warwick.ac.uk
