@@ -20,5 +20,5 @@ Double-click the LIAControl.jar file to begin after installation of the RePLIA o
 
 Full Instructions can be found in the user manual.
 
-Please direct enquires to g.stimpson.1@warwick.ac.uk and/or
+Please direct enquires to Guy Stimpson at stimpystimpson@hotmail.co.uk and/or
 gavin.morley@warwick.ac.uk
