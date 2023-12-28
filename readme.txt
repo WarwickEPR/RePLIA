@@ -7,7 +7,12 @@ https://drive.google.com/file/d/1AOVsBOMCaBl7kWWVk9TnJfYykbBjvgp8/view?usp=shari
 
 Google will undoubtedly warn you about viruses and file size, and there will be no preview, but it's all clean.
 With this install, the default user and password are 'root' and 'nvmag'. Please change them after installing.
+
 -------------------------------------
+The RePLIA software is not maintained anymore, and there are other implementations of Red-Pitaya lock-in amplifiers that are better eg: 
+https://marceluda.github.io/rp_lock-in_pid 
+-------------------------------------
+
 This software is provided under the terms of the GNU v3 (2007).
 
 The folder marked FPGA contains the relevant files for manipulating the FPGA software. 
